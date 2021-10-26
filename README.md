@@ -32,3 +32,26 @@ BrainTumorSeg/
     |   |--requirements.txt
     |--README.md
 ```
+
+To try the demo of the app on Google Colab, first download the Demo NIfTI file found in [BrainTumorSeg/src/BraTS19_2013_7_1_t1.nii](https://github.com/AdityaG09/BrainTumorSeg/blob/main/src/BraTS19_2013_7_1_t1.nii) to your local machine and then follow the below steps
+
+```
+!git clone https://github.com/AdityaG09/BrainTumorSeg.git
+!pip install -r requirements.txt
+!pip install flask_ngrok
+cd BrainTumorSeg/src
+!flask run
+```
+Then click on the flask-ngrok link like the one shown below.
+
+<img width="50%" height="auto" src="src/static/flask_ngrok.jpg" align=mid />
+
+You should then see the UI show up like so
+
+<img width="75%" height="auto" src="src/static/InitialUI.png" align=mid />
+
+Now upload the Demo NIfTI file you downloaded previously. This should give an output like so 
+
+<img width="75%" height="auto" src="src/static/FinalUI.png" align=mid />
+
+
