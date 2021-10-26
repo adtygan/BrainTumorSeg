@@ -1,4 +1,4 @@
-### Link to the processed train and test data
+### Links to the processed train and test data
 
 Train images: [https://drive.google.com/file/d/1JR-lf2GVsDDykWYwv6r3YFYYkc6sntt1/view?usp=sharing](https://drive.google.com/file/d/1JR-lf2GVsDDykWYwv6r3YFYYkc6sntt1/view?usp=sharing)
 
