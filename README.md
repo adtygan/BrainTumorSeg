@@ -19,8 +19,8 @@ BrainTumorSeg/
     |--src/：Code for web app
     |   |--static
     |   |   |--Capture.jpeg：Banner pic displayed in app
-    |   |   |--new_1.png
-    |   |   |--pred_1.png
+    |   |   |--new_1.png: Demo output of input slice image
+    |   |   |--pred_1.png: Demo output of segmented input slice image
     |   |   |--unnamed.gif：GIF displayed in app
     |   |--templates
     |   |   |--index.html
